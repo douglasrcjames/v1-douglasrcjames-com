@@ -1,7 +1,8 @@
 import React from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
 
-import Home from "./components/pages/Home";
+import AboutMe from "./components/pages/";
+import Experience from "./components/pages/experience";
 import TheRetreatOnNichols from "./components/pages/experience/TheRetreatOnNichols";
 import MinuteTech from "./components/pages/experience/MinuteTech";
 import CAPS from "./components/pages/experience/CAPS";
@@ -15,6 +16,7 @@ import SJSU from "./components/pages/experience/SJSU";
 import IHealPhones from "./components/pages/experience/IHealPhones";
 import ORHS from "./components/pages/experience/ORHS";
 import withTracker from './components/WithTracker';
+
 
 
 const Page404 = ({ location }) => (
@@ -31,7 +33,8 @@ export class Routes extends React.PureComponent {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={withTracker(Home)} />
+        <Route exact path="/" component={withTracker(AboutMe)} />
+        <Route exact path="/experience/" component={withTracker(Experience)} />
         <Route exact path="/experience/theretreatonnichols.com" component={withTracker(TheRetreatOnNichols)} />
         <Route exact path="/experience/minute.tech" component={withTracker(MinuteTech)} />
         <Route exact path="/experience/capsmd.org" component={withTracker(CAPS)} />

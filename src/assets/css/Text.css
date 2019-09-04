@@ -8,9 +8,7 @@
     font-size: 16;
 }
 
-.header-text {
-    font-size: 6vw;
-}
+
 
 h1 {
     font-size: 3em;
@@ -36,9 +34,6 @@ h3 {
 }
 
 @media screen and (max-width: 700px) {
-    .header-text {
-        font-size: 9vw;
-    }
     h1 {
         font-size: 2em;
     }

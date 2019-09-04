@@ -1,0 +1,77 @@
+/* .tl-container {
+    
+} */
+
+.tl-container  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+  }
+
+.tl-line {
+    position: relative;
+    max-width: 95%;
+    list-style: none;
+}
+
+.tl-line:before {
+    background-color: white;
+    content: '';
+    margin-left: -px;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 2px;
+    height: 100%;
+  }
+
+.tl-event {
+    position: relative;
+}
+
+.tl-icon {
+    transform: rotate(45deg);
+    background-color: black;
+    outline: 10px solid white;
+    display: block;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 1em;
+    height: 1em;
+}
+
+.tl-body {
+    padding: 2em 2em 1.2em 2em;
+    position: relative;
+    top: -1.875em;
+    left: 2em;
+    width: 95%;
+    border-right: 5px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.tl-body:hover {
+    outline: 0px solid transparent;
+    border-right: 5px solid white;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.tl-date {
+    color: white;
+    background-color: black;
+    box-shadow: inset 0 0 0 0em #ef795a;
+    display: inline-block;
+   
+    padding: 0.25em 1em 0.2em 4.2em;
+}
+
+.tl-description { 
+    padding-bottom: 1.2em;
+}

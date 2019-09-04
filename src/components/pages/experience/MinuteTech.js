@@ -46,7 +46,11 @@ export default class MinuteTech extends Component {
                     Business Plan version 1 was 18 pages and placed me 3rd place in the Silicon Valley Business Plan competition awarding $1500 and legal support.
                     Business Plan Version 2 was expanded to 60 pages for larger investors.
                     Built 2 prototypes with Swift.
+                    ....
+                    [check back soon, this is being updated!]
                 </p>
+                {/* insert excerpt of history from business plan */}
+                {/* tell them i can share business plan if requested */}
                
                 
             </div>

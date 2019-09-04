@@ -15,6 +15,7 @@ import "./assets/css/Align.css";
 import "./assets/css/Images.css";
 import "./assets/css/Forms.css";
 import "./assets/css/Buttons.css";
+import "./assets/css/Timeline.css";
 import "./assets/css/Misc.css";
 
 function App() {

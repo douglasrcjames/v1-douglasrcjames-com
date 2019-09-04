@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from 'react-router-dom'
+import { NavLink, Link } from "react-router-dom";
 
 class Header extends Component {
   constructor(props) {
@@ -24,7 +24,14 @@ class Header extends Component {
   render() {
       return (
         <header className="center-text">
-          <Link to="/"><h1 className="header-text">douglasrcjames.com</h1></Link>
+          <Link to="/"><h1 className="header-logo">douglasrcjames.com</h1></Link>
+          <NavLink to="/" exact={true} className="nav-link" activeClassName="nav-select">
+            About Me
+          </NavLink>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <NavLink to="/experience/" exact={true} className="nav-link" activeClassName="nav-select">
+            Experience
+          </NavLink>
         </header>
       );
     }
