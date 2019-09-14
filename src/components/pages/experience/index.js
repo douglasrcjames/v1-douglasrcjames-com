@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Timeline, Event } from "../../Utilities";
 import {Link} from 'react-router-dom'
-import resume from '../../../assets/pdf/DougResume7.2.2019.pdf'
+import resume from '../../../assets/pdf/Doug-Resume-9.12.2019.pdf'
 
 export default class Experience extends Component {
     render() {
@@ -11,11 +11,15 @@ export default class Experience extends Component {
                 <p>
                     I have broken down my relavent work into chronological order, with a detailed view for each job. 
                     <br/>
-                    If you'd like to get straight to the point, I included a direct download link to my updated (9.3.2019) resume.
+                    If you'd like to get straight to the point, I included a direct download link to my updated (9.12.2019) resume.
                 </p>
                 <a href={resume} download><button className="s-btn" >Download Resume</button></a>
                 <h2>Active:</h2>
                 <ul>
+                    <li><Link to="/experience/minute.tech">minute.tech</Link></li>
+                    <ul>
+                        <li>Polishing off web app</li>
+                    </ul>
                     <li>Last 2 classes at at university</li>
                     <ul>
                         <li>CMPE 146 - Real-Time Embedded System Co-Design</li>
@@ -24,13 +28,15 @@ export default class Experience extends Component {
                     <li><Link to="/experience/caps.md">caps.md</Link></li>
                     <ul>
                         <li>Site built and live</li>
-                        <li>Adding a few article pages monthly</li>
+                        <li>Adding a few article pages monthly.</li>
+                        <li>Currently creating custom CMS system for their team to add articles without me.</li>
                     </ul>
                     <li><Link to="/experience/theretreatonnichols.com">theretreatonnichols.com</Link></li>
                     <ul>
                         <li>Site built and live</li>
                         <li>Polishing off client request</li>
                     </ul>
+                    
                 </ul>
                 <h2>Timeline:</h2>
                 <Timeline>
