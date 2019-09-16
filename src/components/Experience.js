@@ -16,7 +16,7 @@ export default class MinuteTech extends Component {
                         </Col>
                         <Col md={12} lg={6} className="p-container">
                             <a 
-                                href={this.props.siteUrl}
+                                href={`https://${this.props.siteUrl}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 >
@@ -25,7 +25,7 @@ export default class MinuteTech extends Component {
                                         <MediaQuery minWidth={993}>
                                             <img
                                                 className="responsive large p-top-right"
-                                                alt="minute.tech logo"
+                                                alt={`${this.props.title} logo`}
                                                 src={this.props.logoUrl}
                                                 />
                                         </MediaQuery>
@@ -44,7 +44,7 @@ export default class MinuteTech extends Component {
                                         <MediaQuery minWidth={993}>
                                             <img
                                                 className="responsive xlarge p-top-right m-margin"
-                                                alt="minute.tech logo"
+                                                alt={`${this.props.title} logo`}
                                                 src={this.props.logoUrl}
                                                 />
                                         </MediaQuery>
@@ -125,7 +125,17 @@ export default class MinuteTech extends Component {
                 <hr />
                 <br />
                 {   this.props.photoGallery && (
-                    <PhotoGallery photos={this.props.photoGallery} />
+                    <>
+                        {   this.props.gallerySize === "medium" && (
+                            <div className="m-width center">
+                                <PhotoGallery photos={this.props.photoGallery} />
+                            </div>
+                            
+                        )}
+                        {   !this.props.gallerySize && (
+                            <PhotoGallery photos={this.props.photoGallery} />
+                        )}
+                    </>
                 )}
                 
                 

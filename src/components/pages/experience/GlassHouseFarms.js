@@ -43,7 +43,7 @@ const DescriptionBlock = () => {
             alt="minute.tech logo"
             src={require("../../../assets/images/glasshousefarms/wireframe.png")}
             />
-        <h2><u>Finished Product:</u> @ <a href="https://www.linkedin.com/in/mitchell-licata/" target="_blank" rel="noopener noreferrer">www.glasshousefarms.co</a></h2>
+        <h2><u>Finished Product:</u> @ <a href="https://www.glasshousefarms.co" target="_blank" rel="noopener noreferrer">www.glasshousefarms.co</a></h2>
         
         <br/>
     </>
