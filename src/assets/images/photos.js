@@ -279,9 +279,9 @@ export const sjsu = [
 
 export const orhs = [
   {
-    src: require("../images/orhs/prom-3.jpg"),
-    width: 3,
-    height: 4
+    src: require("../images/orhs/prom-6.jpg"),
+    width: 8.5,
+    height: 6
   },
   {
     src: require("../images/orhs/prom-4.jpg"),
@@ -289,18 +289,20 @@ export const orhs = [
     height: 1.3
   },
   {
-    src: require("../images/orhs/sadies-1.jpg"),
-    width: 7,
-    height: 5
+    src: require("../images/orhs/prom.jpg"),
+    width: 1.3,
+    height: 2
   },
   {
-    src: require("../images/orhs/prom-1.jpg"),
-    width: 4,
-    height: 3
+    src: require("../images/orhs/soccer.JPG"),
+    width: 4.9,
+    height: 3.2
   },
   {
-    src: require("../images/orhs/prom-2.jpg"),
-    width: 3,
-    height: 4
+    src: require("../images/orhs/grad-2.jpg"),
+    width: 2,
+    height: 1.3
   },
+  
+
 ];

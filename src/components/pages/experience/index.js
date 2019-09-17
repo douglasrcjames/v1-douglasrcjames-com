@@ -9,27 +9,28 @@ export default class Experience extends Component {
             <div>
                 <h1>Experience</h1>
                 <p>
-                    I have broken down my relavent work into chronological order, with a detailed view for each job. 
+                    I have broken down my relevant work into chronological order, with a detailed view for each job. 
                     <br/>
                     If you'd like to get straight to the point, I included a direct download link to my updated (9.12.2019) resume.
                 </p>
-                <a href={resume} download><button className="s-btn" >Download Resume</button></a>
+                <a href={resume} download><button className="s-btn">Download Resume</button></a>
                 <h2>Active:</h2>
                 <ul>
                     <li><Link to="/experience/minute.tech">minute.tech</Link></li>
                     <ul>
                         <li>Polishing off web app</li>
-                    </ul>
-                    <li>Last 2 classes at at university</li>
-                    <ul>
-                        <li>CMPE 146 - Real-Time Embedded System Co-Design</li>
-                        <li>Senior Project - Minute.tech iOS app</li>
+                        <li>iOS app for senior project</li>
                     </ul>
                     <li><Link to="/experience/caps.md">caps.md</Link></li>
                     <ul>
                         <li>Site built and live</li>
                         <li>Adding a few article pages monthly.</li>
                         <li>Currently creating custom CMS system for their team to add articles without me.</li>
+                    </ul>
+                    <li>Last 2 classes at at university</li>
+                    <ul>
+                        <li>CMPE 146 - Real-Time Embedded System Co-Design</li>
+                        <li>Senior Project - Minute.tech iOS app</li>
                     </ul>
                     <li><Link to="/experience/theretreatonnichols.com">theretreatonnichols.com</Link></li>
                     <ul>
@@ -86,14 +87,9 @@ export default class Experience extends Component {
                     </Event>
                     <Event interval={"August, 2009 – May, 2013"} title={"Oak Ridge High School"} link={"/experience/oak-ridge-high-school"}>
                         Earned high school diploma at a public school east of Sacramento in El Dorado Hills, CA.
-                        {/* <li>JV through Varsity soccer</li>
-                        <li>JV through Varsity lacrosse</li>
-                        <li>Youngest DECA club member at school</li>
-                        <li>ART Media club web designer</li>
-                        <li>One of 3 school web site designers</li>
-                        */}
+                 
                     </Event>
-                    <Event interval={"December 21st, 1994"} title={"Douglas Robert Cunningham James birthday"}>
+                    <Event interval={"December 21st, 1994"} title={"Douglas Robert Cunningham James birthday"} lastEvent={true}>
                         Born a big baby, weighing in at 10 lbs!
                     </Event>
                     {/* Need to style the ending to by no line! */}

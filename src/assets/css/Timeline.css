@@ -19,7 +19,7 @@
 .tl-line:before {
     background-color: white;
     content: '';
-    margin-left: -px;
+    margin-left: -1px;
     position: absolute;
     top: 0;
     left: 2em;
@@ -28,6 +28,11 @@
   }
 
 .tl-event {
+    position: relative;
+}
+
+.tl-last-event {
+    background-color: black;
     position: relative;
 }
 

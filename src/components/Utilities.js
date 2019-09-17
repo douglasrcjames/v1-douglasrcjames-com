@@ -15,19 +15,44 @@ export const Timeline = ({ children }) =>
     </ul>
   </div>
   
-export const Event = ({ title, subtitle, interval, link, children }) =>
-  <li className="tl-event">
-    <label className="tl-icon"></label>
-    <p className="tl-date">{interval}</p>
-    <div className="tl-body">
-      <h2>{title}</h2>
-      {subtitle && <h4>{subtitle}</h4>}
-      <div className="tl-description">
-        {children}
+export const Event = ({ title, subtitle, interval, link, children, lastEvent }) =>
+<>
+  { lastEvent && (
+    <li className="tl-last-event">
+      <label className="tl-icon"></label>
+      <p className="tl-date">{interval}</p>
+      <div className="tl-body">
+        <h2>{title}</h2>
+        {subtitle && <h4>{subtitle}</h4>}
+        <div className="tl-description">
+          {children}
+        </div>
+        { link && (
+          <Link to={link}>more details...</Link>
+        )}
+        
       </div>
-      <Link to={link}>more details...</Link>
-    </div>
-  </li>
+    </li>
+  )}
+
+  { !lastEvent && (
+    <li className="tl-event">
+      <label className="tl-icon"></label>
+      <p className="tl-date">{interval}</p>
+      <div className="tl-body">
+        <h2>{title}</h2>
+        {subtitle && <h4>{subtitle}</h4>}
+        <div className="tl-description">
+          {children}
+        </div>
+        { link && (
+          <Link to={link}>more details...</Link>
+        )}
+        
+      </div>
+    </li>
+  )}
+</>
 
 
 export const SocialLink = ({ label, link }) =>
