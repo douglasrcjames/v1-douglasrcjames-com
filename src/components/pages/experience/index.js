@@ -27,7 +27,7 @@ export default class Experience extends Component {
                         <li>Adding a few article pages monthly.</li>
                         <li>Currently creating custom CMS system for their team to add articles without me.</li>
                     </ul>
-                    <li>Last 2 classes at at university</li>
+                    <li>Last 2 classes at university</li>
                     <ul>
                         <li>CMPE 146 - Real-Time Embedded System Co-Design</li>
                         <li>Senior Project - Minute.tech iOS app</li>

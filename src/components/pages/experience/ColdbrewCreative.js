@@ -36,9 +36,7 @@ const DescriptionBlock = () => {
            they wanted to build on the site. Overall, this was a great job and with a motivated team around me that I gained a plethora of knowledge from. Mike motivated me
            as a leader, <a href="https://github.com/andyhqtran" target="_blank" rel="noopener noreferrer">Andy Tran</a> motivated me as a software engineer, and&nbsp;
            <a href="https://www.linkedin.com/in/ryan-wall-287837132/" target="_blank" rel="noopener noreferrer">Ryan Wall</a> motivated me as a designer. Ultimately, I left
-           the team because I was working with technology too far up the stack (WordPress) and wanted to work with less abstracted technologies, like Node nad Python. I am grateful for the 
-           opportunity at Coldbrew Creative and the experiences I learned there.
-
+           the team because I was working with technology too far up the stack (WordPress) and wanted to work with less abstracted technologies, like Node and Python. 
         </p>   
     </>
     )

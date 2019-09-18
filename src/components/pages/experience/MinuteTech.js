@@ -64,7 +64,7 @@ const DescriptionBlock = () => {
             in high school. This phone repair business placed me in a position within my sphere of influence as a "techie". I was someone who 
             friends and family asked tech questions to regularly, which ultimately led me to pursue a computer engineering degree. 
             While studying engineering, I noticed that troubleshooting high level issues took a similar approach as low level issues, 
-            such as troubleshooting engineering issues (i.e. circuit board logic) vs my parents tech problems. This seed grew when I took my 
+            such as troubleshooting engineering issues (i.e. circuit board logic) vs my parent's tech problems. This seed grew when I took my 
             first business class where we teamed up in the class around a business idea. I suggested my <strike>business</strike> problem/solution 
             to the group, proposing a communication and payment system that connected clients with technicians via the internet. My group loved the 
             idea and we were off to the races; Minute.tech was born. 
@@ -77,7 +77,7 @@ const DescriptionBlock = () => {
         
 
         <ul>
-            <li>Wrote Business Plan version 1</li>
+            <li>Completed Business Plan version 1</li>
             <ul>
                 <li>18 pages written primarily by me</li>
                 <li>Placed 3rd in the Silicon Valley Business Plan Competition (SVBPC) awarding $1500 and legal support.</li>
@@ -166,7 +166,7 @@ const DescriptionBlock = () => {
                     </a>  
                 </li>
             </ul>
-            <li>Wrote Business Plan version 2</li>
+            <li>Completed Business Plan version 2</li>
             <ul>
                 <li>18 pages was expanded to 60 pages to consolidate my plethora of ideas and notes for potential investors.</li>
                 <li>
@@ -227,6 +227,12 @@ const DescriptionBlock = () => {
             <li>For senior project at SJSU I am leading a team of 3 other engineers in building the Swift prototype</li>
             <ul>
                 <li>June - December 2019</li>
+            </ul>
+            <li>Serviced 100s of customers throughout lifetime of the business</li>
+            <ul>
+                <li>Helping people around me with their technology problems has always brought me great joy, but I started reaching out to new clients 
+                    to heighten my customer understanding to build a better business.
+                </li>
             </ul>
         </ul>
     </>

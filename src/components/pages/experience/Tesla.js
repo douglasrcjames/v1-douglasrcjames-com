@@ -31,7 +31,7 @@ const DescriptionBlock = () => {
             While attending San Jose State, I had some spare time and a heavy interest in Tesla as a company and the products they were building. I got an interview from a 
             college friend of mine, <a href="https://www.linkedin.com/in/vybhav-a-kandadai-%E2%98%81-8525244a/" rel="noopener noreferrer" target="_blank">Vybhav Kandadai</a>, another car salesman 
             at the Santana Row show room in San Jose. I nailed the interview after expressing my knowledge for Elon's vision for Tesla and his other companies. I made quick friends
-            my co-workers, and have lasting relationships with many of them from my experience there. The Santana Row location was the flagship store for Tesla, so we got many affluent visitors, 
+            with my co-workers, and have lasting relationships with many of them from my experience there. The Santana Row location was the flagship store for Tesla, so we got many affluent visitors, 
             such as business men and women, sports players, actors/actresses, and Elon himself occasionally. In this high stakes environment, I perfected how to present myself as a professional. 
             Ultimately, I left the job because I quickly found that moving from selling cars to an engineering position was difficult because of the size of the company. I felt I had also
             reached the limit on the challenges I was being presented, and wanted to move to a more challenging engineering job that took advantage of what I was studying in school.

@@ -26,7 +26,7 @@ const DescriptionBlock = () => {
     <>
         <p className="indent">
             Yamato Nishino is a friend and personal fitness trainer in the San Fransisco Bay Area. In June of 2018, she wanted a website to 
-            centralize her personal training business, where potential clients could read, look, and watch more about what she had to offer. 
+            centralize her personal training business, where potential clients could read and watch more about what she had to offer. 
             I worked with two other graphic designers, <a href="https://www.linkedin.com/in/ryan-wall-287837132/" target="_blank" rel="noopener noreferrer">Ryan Wall</a>&nbsp;
             and <a href="https://www.linkedin.com/in/mitchell-licata/" target="_blank" rel="noopener noreferrer">Mitch Licata</a> to create logo, branding (colors, fonts, etc), and 
             website wireframe. I developed her one-page site with PHP for the contact form and UIkit 3 for the front end work. This site turned out simply beautiful, I was so proud 

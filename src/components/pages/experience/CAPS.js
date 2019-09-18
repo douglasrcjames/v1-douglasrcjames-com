@@ -31,7 +31,7 @@ const DescriptionBlock = () => {
         <p className="indent">
             CAPS (Council for Advocacy and Policy Solutions) is a non-profit political publication group with the goal to educate constituents in 
             Montgomery County, Maryland about legislation that effects them. The group came to me in May, 2019 during my finals week for school because their previous web developer had dropped
-            the ball building a site with Webflow.com. They were launching this CAPS program in a few weeks and were in a mad rush to get the site up and operational. 
+            the ball building a site with Webflow.com. They were launching their CAPS program in a few weeks and were in a mad rush to get the site up and operational. 
             I agreed, excited to use my new React and Firebase skills and was able to crank out a website for them in a week. (and still pass 4 of my engineering classes!)
             There was one hiccup the night before they were launching, I was making a few final (vital) touches to the site, and suddenly my computer crashed. I spent hours 
             troubleshooting to get back hours of un-pushed changes, but unfortunately, my hard drive was bust. 

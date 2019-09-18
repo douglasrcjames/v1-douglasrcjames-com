@@ -31,7 +31,7 @@ const DescriptionBlock = () => {
     <>
         <p className="indent">
            iHealPhones was my first business focused on repairing smartphone, laptop, and device hardware in the local area of El Dorado Hills, CA. 
-           80% of work done was fixing iPhone screens at a time when iPhones were hitting the market. Venture got my feet wet with hardware/software troubleshooting, 
+           80% of work done was fixing iPhone screens at a time when iPhones were hitting the market. This venture got my feet wet with hardware/software troubleshooting, 
            business marketing, customer relations, and accounting. The troubleshooting patterns I learned at this job directly applied to the inception 
            of <Link to="/experience/minute.tech">Minute.tech</Link>. 
         </p>  

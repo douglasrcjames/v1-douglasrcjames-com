@@ -12,7 +12,7 @@ export default class AboutMe extends Component {
                 <p>
                     Welcome to my portfolio site. I am a young, professional engineer and businessman trained in the Silicon Valley at 
                     San Jose State University. I am currently living in Berkeley, CA with my lovely girlfriend Ana, my siamese cat Link, and basset hound Georgie. 
-                    I am actively looking for part-time or full-time work, particularly in a position that utilizes my skills as a web developer and businessman.
+                    I am actively looking for part-time or full-time work, particularly in a position that utilizes my skills as a web developer, businessman, or computer technician.
                     Some of my interests include coding, gaming, eating healthy (but tasty), camping &amp; hiking, technology, outer space, and animals. 
                     Links for my email and social accounts are in the footer of every page, so feel free to reach out or check out what I am like online!
                 </p>
