@@ -15,6 +15,7 @@ import ACFN from "./components/pages/experience/ACFN";
 import SJSU from "./components/pages/experience/SJSU";
 import IHealPhones from "./components/pages/experience/IHealPhones";
 import ORHS from "./components/pages/experience/ORHS";
+import Gallery from "./components/pages/Gallery";
 import withTracker from './components/WithTracker';
 
 
@@ -47,6 +48,7 @@ export class Routes extends React.PureComponent {
         <Route exact path="/experience/san-jose-state-university" component={withTracker(SJSU)} />
         <Route exact path="/experience/ihealphones.com" component={withTracker(IHealPhones)} />
         <Route exact path="/experience/oak-ridge-high-school" component={withTracker(ORHS)} />
+        <Route exact path="/gallery/" component={withTracker(Gallery)} />
         <Route component={withTracker(Page404)} />
       </Switch>
     );

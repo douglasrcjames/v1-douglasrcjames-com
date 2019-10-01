@@ -32,6 +32,10 @@ class Header extends Component {
           <NavLink to="/experience/" exact={true} className="nav-link" activeClassName="nav-select">
             Experience
           </NavLink>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <NavLink to="/gallery/" exact={true} className="nav-link" activeClassName="nav-select">
+            Gallery
+          </NavLink>
         </header>
       );
     }

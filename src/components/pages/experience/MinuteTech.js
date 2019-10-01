@@ -57,6 +57,14 @@ const SkillsBlock = () => {
 const DescriptionBlock = () => {
     return (
     <>
+        <h2>Brief</h2>
+        <p className="indent">
+            Minute.tech plans to be a web, iOS, Android, and desktop app that provides consumer grade tech support by connecting clients who have tech questions with qualified technicians.
+            The system will facilitate communication with technicians over messenger, voice/video calls, remote connection, and in-person scheduling, and a payment solution all under the application's hood.
+            I recognize this project is ambitious, and has taken me many years, team members, advisors, and prototypes, but I do believe the opportunity is worth the effort based on my personal experience and 
+            extensive research.
+        </p>
+        <h2>History</h2>
         <p className="indent">
             When other kids dreamed of being firefighters and football players, I dreamed of entrepreneurship. My father 
             started a smoothie business that competed with Starbucks in the early 90s, and I was inspired heavily by that as a kid. 
@@ -75,7 +83,7 @@ const DescriptionBlock = () => {
             <i className="s-text">(business is still live and many files are still confidential. Feel free to request permission on GDrive when attempting to view.)</i>
         </p>
         
-
+        {/* maybe make this use the same timeline setup as the main experience page */}
         <ul>
             <li>Completed Business Plan version 1</li>
             <ul>
