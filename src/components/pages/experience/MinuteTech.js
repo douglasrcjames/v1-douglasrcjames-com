@@ -12,7 +12,7 @@ export default class MinuteTech extends Component {
                     siteUrl={"www.minute.tech"}
                     logoUrl={require("../../../assets/images/minutetech/minute-tech-logo-long-full-color.png")}
                     logoStyle={"square"}
-                    myRole={"Founder & CEO"}
+                    myRole={"Founder"}
                     status={"In Progress"}
                     period={"May, 2016 -> Current"}
                     skillsBlock={<SkillsBlock />}

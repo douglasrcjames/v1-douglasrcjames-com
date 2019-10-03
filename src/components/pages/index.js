@@ -24,9 +24,12 @@ export default class AboutMe extends Component {
                 <p className="indent">
                     Professionally, I am actively looking for part-time, full-time, contractor, intern, or remote work for when I graduate in December, 2019. 
                     I have a particular interest in positions at a small software company with equity opportunities that can utilize my skills as a web developer, businessman, or computer technician.
+                    As of recently, I have began seeing the magic in code and have been pursing a more software based path. I love writing efficient back end code and beautiful user interfaces on the 
+                    front end to interact with that back end. My <Link to="/experience/minute.tech">Minute.tech</Link> project has been my most ambitious project to date and has really shown me the power 
+                    of an interconnected app between multiple APIs (Twilio, Stripe, Firebase) and platforms (web and iOS).
                     I have always believed that <a href="https://www.youtube.com/watch?v=nlD9JYP8u5E" target="_blank" rel="noopener noreferrer">anyone can do anything</a> with a lot of practice and mental 
                     perseverance. With that said, I do believe that if given the opportunity and need, I would be able to fulfill any role because I trust my ability to learn and apply knowledge. 
-                    Without tooting my own horn too much, I do tend to gravitate towards a leadership/manager role when working on projects and with teams, likely due to my extroverted background relative 
+                    I do tend to gravitate towards a leadership/manager role when working on projects and with teams, likely due to my extroverted background relative 
                     to my engineering peers (although, I would still classify myself as an introvert.) However, I still do enjoy the technical process behind building products and technology, and would love 
                     to be tightly integrated with that process. I am also a highly organized individually, especially in my digital life because I find joy in putting things (usually data) into specific bins 
                     for quick and efficient access. I am unsure if this is a product of my experience as a technician and/or web developer, but undoubtedly has come in handy for both.

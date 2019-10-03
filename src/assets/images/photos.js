@@ -314,14 +314,34 @@ export const orhs = [
 
 export const galleryPhotos = [
   {
-    src: require("../images/doug-life/ana-doug-1.jpg"),
-    width: 4,
-    height: 3
-  },
-  {
     src: require("../images/doug-life/ana-doug-7.jpg"),
     width: 3.1,
     height: 2.3
+  },
+  {
+    src: require("../images/doug-life/space-2.jpg"),
+    width: 2,
+    height: 2
+  },
+  {
+    src: require("../images/doug-life/doug-4.jpg"),
+    width: 2.2,
+    height: 3
+  },
+  {
+    src: require("../images/doug-life/family-4.jpg"),
+    width: 1.9,
+    height: 1.7
+  },
+  {
+    src: require("../images/doug-life/link-2.jpg"),
+    width: 1.5,
+    height: 2
+  },
+  {
+    src: require("../images/doug-life/georgie-3.jpg"),
+    width: 2.5,
+    height: 3
   },
   {
     src: require("../images/doug-life/ana-doug-2.jpg"),
@@ -332,6 +352,11 @@ export const galleryPhotos = [
     src: require("../images/doug-life/ana-doug.jpg"),
     width: 3,
     height: 4
+  },
+  {
+    src: require("../images/doug-life/ana-doug-1.jpg"),
+    width: 4,
+    height: 3
   },
   {
     src: require("../images/doug-life/ana-doug-3.jpg"),
@@ -359,11 +384,6 @@ export const galleryPhotos = [
     height: 2.2
   },
   {
-    src: require("../images/doug-life/doug-4.jpg"),
-    width: 2.2,
-    height: 3
-  },
-  {
     src: require("../images/doug-life/doug-cenzo.jpg"),
     width: 1.5,
     height: 2
@@ -379,17 +399,7 @@ export const galleryPhotos = [
     height: 1.5
   },
   {
-    src: require("../images/doug-life/family-4.jpg"),
-    width: 1.9,
-    height: 1.7
-  },
-  {
     src: require("../images/doug-life/georgie.jpg"),
-    width: 1.5,
-    height: 2
-  },
-  {
-    src: require("../images/doug-life/georgie-1.jpg"),
     width: 1.5,
     height: 2
   },
@@ -399,17 +409,7 @@ export const galleryPhotos = [
     height: 1.5
   },
   {
-    src: require("../images/doug-life/georgie-3.jpg"),
-    width: 2.5,
-    height: 3
-  },
-  {
     src: require("../images/doug-life/georgie-5.jpg"),
-    width: 1.5,
-    height: 2
-  },
-  {
-    src: require("../images/doug-life/link.jpg"),
     width: 1.5,
     height: 2
   },
@@ -419,14 +419,14 @@ export const galleryPhotos = [
     height: 2
   },
   {
-    src: require("../images/doug-life/link-2.jpg"),
-    width: 1.5,
-    height: 2
-  },
-  {
     src: require("../images/doug-life/link-georgie.jpg"),
     width: 2,
     height: 1.5
+  },
+  {
+    src: require("../images/doug-life/georgie-1.jpg"),
+    width: 1.5,
+    height: 2
   },
   {
     src: require("../images/doug-life/link-georgie-1.jpg"),
@@ -434,13 +434,13 @@ export const galleryPhotos = [
     height: 2
   },
   {
-    src: require("../images/doug-life/space-2.jpg"),
+    src: require("../images/doug-life/paradiso.jpg"),
     width: 2,
     height: 2
   },
   {
-    src: require("../images/doug-life/paradiso.jpg"),
-    width: 2,
+    src: require("../images/doug-life/link.jpg"),
+    width: 1.5,
     height: 2
   },
   {
