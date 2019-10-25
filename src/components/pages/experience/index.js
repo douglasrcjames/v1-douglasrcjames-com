@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Timeline, Event } from "../../Utilities";
 import {Link} from 'react-router-dom'
-import resume from '../../../assets/pdf/Doug-Resume-9.12.2019.pdf'
+import resume from '../../../assets/pdf/Doug-Resume-10.25.2019.pdf'
 
 export default class Experience extends Component {
     render() {
@@ -9,9 +9,11 @@ export default class Experience extends Component {
             <div>
                 <h1>Experience</h1>
                 <p>
+                    I am a web developer with 8+ years of professional experience, computer technician with 9+ years of professional experience, 
+                    and an entrepreneur with a lifelong dream to build great products.
                     I have broken down my relevant work into chronological order, with a detailed view for each job. 
                     <br/>
-                    If you'd like to get straight to the point, I included a direct download link to my updated (9.12.2019) resume.
+                    If you'd like to get straight to the point, I included a direct download link to my updated (10.25.2019) resume.
                 </p>
                 <a href={resume} download><button className="s-btn">Download Resume</button></a>
                 <h2>Active:</h2>
@@ -21,11 +23,11 @@ export default class Experience extends Component {
                         <li>Polishing off web app</li>
                         <li>iOS app for senior project</li>
                     </ul>
-                    <li><Link to="/experience/caps.md">caps.md</Link></li>
+                    <li><Link to="/experience/capsmd.org">capsmd.org</Link></li>
                     <ul>
                         <li>Site built and live</li>
-                        <li>Adding a few article pages monthly.</li>
-                        <li>Currently creating custom CMS system for their team to add articles without me.</li>
+                        <li>Adding a few article pages monthly</li>
+                        <li>Currently creating custom CMS system for their team to add articles independently</li>
                     </ul>
                     <li>Last 2 classes at university</li>
                     <ul>

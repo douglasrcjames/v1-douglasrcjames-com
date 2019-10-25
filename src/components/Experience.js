@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import MediaQuery from "react-responsive";
-
 import PhotoGallery from './Utilities'
 
 export default class MinuteTech extends Component {

@@ -29,7 +29,7 @@ const DescriptionBlock = () => {
     return (
     <>
         <p className="indent">
-            Earning Computer Engineering major with Business and Math minors in the heart of Silicon Valley. Proud member of the Pi Kappa Alpha fraternity. 
+            Earning Computer Engineering major with Business and Math minors in the heart of Silicon Valley. Member of Computer &amp; Software Engineering Society. Member of the Pi Kappa Alpha fraternity. 
         </p>  
         
        
