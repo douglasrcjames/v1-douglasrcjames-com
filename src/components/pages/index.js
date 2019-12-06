@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import PhotoGallery from '../Utilities'
 import { dougPhotos } from "../../assets/images/photos";
-import resume from '../../assets/pdf/DouglasJames-Resume-11.8.2019.pdf'
+import resume from '../../assets/pdf/DouglasJames-Resume-12.5.2019.pdf'
 
 export default class AboutMe extends Component {
     render() {

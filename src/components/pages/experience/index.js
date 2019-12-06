@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Timeline, Event } from "../../Utilities";
 import {Link} from 'react-router-dom'
-import resume from '../../../assets/pdf/DouglasJames-Resume-11.8.2019.pdf'
+import resume from '../../../assets/pdf/DouglasJames-Resume-12.5.2019.pdf'
 
 export default class Experience extends Component {
     render() {
@@ -13,7 +13,7 @@ export default class Experience extends Component {
                     and an entrepreneur with a lifelong dream to build great products.
                     I have broken down my relevant work into chronological order, with a detailed view for each job. 
                     <br/>
-                    If you'd like to get straight to the point, I included a direct download link to my updated (11.8.2019) resume.
+                    If you'd like to get straight to the point, I included a direct download link to my updated (12.5.2019) resume.
                 </p>
                 <a href={resume} download><button className="s-btn">Download Resume</button></a>
                 <h2>Active:</h2>
