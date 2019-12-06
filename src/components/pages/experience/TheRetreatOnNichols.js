@@ -10,7 +10,6 @@ export default class TheRetreatOnNichols extends Component {
                     title={"The Retreat On Nichols"}
                     siteUrl={"www.theretreatonnichols.com"}
                     logoUrl={require("../../../assets/images/theretreatonnichols/logo-v2.png")}
-     
                     myRole={"Web Developer"}
                     status={"Completed"}
                     period={"August, 2019"}
@@ -38,7 +37,7 @@ const DescriptionBlock = () => {
             and send that to the client's email via node-mailer. The site took me about a month to plan, design, and build. The design 
             phase was fairly quick, because I had previously built a SquareSpace site for the client, so I based much of my design off that template. 
             I worked with a videographer and photographer to fit their content they captured into the site. I love how the site turned out and so did the 
-            client!
+            client! Since August 2019 the site has garnered 200 unique website visitors. 
         </p> 
     </>
     )

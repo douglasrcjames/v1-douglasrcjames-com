@@ -54,7 +54,8 @@ const DescriptionBlock = () => {
         <p>
             I am very proud of the website I developed and the client was very pleased with the finished product as well. I am now developing a custom CMS 
             solution for them to be able to post their own articles within my intervention. In hindsight, perhaps this project was better suited for a 
-            WordPress/SquareSpace/other CMS use case, but both the client and I agree the front end looks better than some 3rd party CMS solutions.
+            WordPress/SquareSpace/other CMS use case, but both the client and I agree the front end looks better than some 3rd party CMS solutions. 
+            Since July 2019 the site has garnered 1,000 unique website visitors.
         </p>
       
     </>
