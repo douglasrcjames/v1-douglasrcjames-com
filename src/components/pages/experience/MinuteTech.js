@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Experience from '../../Experience';
-import { minuteTech } from "../../../assets/images/photos";
+import { minuteTech, minuteTechIos, minuteTechWireframe } from "../../../assets/images/photos";
+import PhotoGallery from '../../Utilities'
 
 export default class MinuteTech extends Component {
     
@@ -197,7 +198,7 @@ const DescriptionBlock = () => {
                     of a friend named <a href="https://www.linkedin.com/in/ryan-morris-26898ba1/" target="_blank" rel="noopener noreferrer">Ryan Morris</a>, 
                     who was interested in joining with future equity promise.
                 </li>
-                <li>December - January 2019</li>
+                <li>December 2018 - January 2019</li>
                 <li>
                     <a 
                         href="https://drive.google.com/drive/folders/1nZkuExgpoaFqyzbcFf7dtWH8JQN4mWbF?usp=sharing"
@@ -232,7 +233,7 @@ const DescriptionBlock = () => {
                     </a>  
                 </li>
             </ul>
-            <li>For senior project at SJSU I am leading a team of 3 other engineers in building the Swift prototype</li>
+            <li>For senior project at SJSU I lead a team of 3 other engineers in building the Swift prototype</li>
             <ul>
                 <li>June - December 2019</li>
             </ul>
@@ -243,6 +244,30 @@ const DescriptionBlock = () => {
                 </li>
             </ul>
         </ul>
+
+        <h2>iOS MVP</h2>
+        <div className="center-text">
+            <PhotoGallery photos={minuteTechIos} />
+            <br/>
+            <br/>
+            <iframe
+                title="Minute.tech iOS Demo video"
+                width="560" height="315"
+                src="https://www.youtube.com/embed/ZivovCZzyYk"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen="allowfullscreen"
+                mozallowfullscreen="mozallowfullscreen" 
+                msallowfullscreen="msallowfullscreen" 
+                oallowfullscreen="oallowfullscreen" 
+                webkitallowfullscreen="webkitallowfullscreen"
+            />
+            <br/>
+            <br/>
+        </div> 
+        <h2>Web Wireframe</h2>
+        <PhotoGallery photos={minuteTechWireframe} />
+        <br/>
     </>
     )
 }

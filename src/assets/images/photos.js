@@ -28,11 +28,6 @@ export const dougPhotos = [
 
 export const minuteTech = [
   {
-    src: require("../images/minutetech/logo-mt.jpg"),
-    width: 3.5,
-    height: 3
-  },
-  {
     src: require("../images/minutetech/svbpc-cert.jpg"),
     width: 4,
     height: 3
@@ -43,30 +38,98 @@ export const minuteTech = [
     height: 5
   },
   {
-    src: require("../images/minutetech/wireframe-1.jpg"),
-    width: 5,
-    height: 3
-  },
-  {
-    src: require("../images/minutetech/wireframe-2.jpg"),
-    width: 4,
-    height: 3
-  },
-  {
-    src: require("../images/minutetech/wireframe-3.jpg"),
-    width: 4,
-    height: 3
-  },
-  {
-    src: require("../images/minutetech/wireframe-4.jpg"),
+    src: require("../images/minutetech/expo.jpeg"),
     width: 4,
     height: 4
   },
   {
-    src: require("../images/minutetech/wireframe-5.jpg"),
+    src: require("../images/minutetech/ios-team.jpg"),
     width: 4,
     height: 3
   },
+  
+];
+
+export const minuteTechWireframe = [
+  {
+    src: require("../images/minutetech/web-wireframe/1.jpg"),
+    width: 2.2,
+    height: 1.2
+  },
+  {
+    src: require("../images/minutetech/web-wireframe/2.jpg"),
+    width: 1.7,
+    height: 1.2
+  },
+  {
+    src: require("../images/minutetech/web-wireframe/3.jpg"),
+    width: 1.7,
+    height: 1.2
+  },
+  {
+    src: require("../images/minutetech/web-wireframe/4.jpg"),
+    width: 1,
+    height: 1
+  },
+  {
+    src: require("../images/minutetech/web-wireframe/5.jpg"),
+    width: 1.7,
+    height: 1.2
+  },
+];
+
+export const minuteTechIos = [
+  {
+    src: require("../images/minutetech/ios-screenshots/1.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/2.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/3.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/4.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/5.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/6.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/7.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/8.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/9.png"),
+    width: 1.1,
+    height: 2.5
+  },
+  {
+    src: require("../images/minutetech/ios-screenshots/10.png"),
+    width: 1.1,
+    height: 2.5
+  },
+ 
 ];
 
 export const theRetreatOnNichols = [

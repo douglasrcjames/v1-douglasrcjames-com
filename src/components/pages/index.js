@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import PhotoGallery from '../Utilities'
 import { dougPhotos } from "../../assets/images/photos";
-import resume from '../../assets/pdf/Doug-Resume-9.12.2019.pdf'
+import resume from '../../assets/pdf/DouglasJames-Resume-11.8.2019.pdf'
 
 export default class AboutMe extends Component {
     render() {
         return (
             <div>
+                
                 <h1>About Me</h1>
                 <h2>Personal</h2>
                 <p className="indent">
@@ -22,7 +23,7 @@ export default class AboutMe extends Component {
                 <PhotoGallery photos={dougPhotos} />
                 <h2>Professional</h2>
                 <p className="indent">
-                    Professionally, I am actively looking for part-time, full-time, contractor, intern, or remote work for when I graduate in December, 2019. 
+                    Professionally, I am actively looking for part-time, full-time, contractor, or remote work for when I graduate in December, 2019. 
                     I have a particular interest in positions at a small software company with equity opportunities that can utilize my skills as a web developer, businessman, or computer technician.
                     As of recently, I have began seeing the magic in code and have been pursing a more software based path. I love writing efficient back end code and beautiful user interfaces on the 
                     front end to interact with that back end. My <Link to="/experience/minute.tech">Minute.tech</Link> project has been my most ambitious project to date and has really shown me the power 

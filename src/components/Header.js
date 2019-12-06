@@ -25,6 +25,7 @@ class Header extends Component {
       return (
         <header className="center-text">
           <Link to="/"><h1 className="header-logo">douglasrcjames.com</h1></Link>
+          {/* <h2 className="no-margin no-padding">Hi, I'm Doug and I fix bugs.</h2> */}
           <NavLink to="/" exact={true} className="nav-link" activeClassName="nav-select">
             About Me
           </NavLink>
