@@ -34,10 +34,11 @@ const DescriptionBlock = () => {
         </p>   
         <p className="indent">
             I built this site using React.js as the front end, and Firebase for the database backend to store contact info, 
-            and send that to the client's email via node-mailer. The site took me about a month to plan, design, and build. The design 
+            and send that contact info to the client's email via node-mailer. The site took me about a month to plan, design, and build. The design 
             phase was fairly quick, because I had previously built a SquareSpace site for the client, so I based much of my design off that template. 
-            I worked with a videographer and photographer to fit their content they captured into the site. I love how the site turned out and so did the 
-            client! Since August 2019 the site has garnered 200 unique website visitors. 
+            I had to do a quick rework of the logo because the client did not have the original image for the logo.
+            I also worked with a videographer and photographer to fit their content captured into the site.
+            Since August 2019 the site has garnered 200 unique website visitors. 
         </p> 
     </>
     )
