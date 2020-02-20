@@ -10,15 +10,11 @@ export const dougPhotos = [
     height: 3
   },
   {
-    src: require("../images/doug-life/family.jpg"),
+    src: require("../images/doug-life/doug-family-grad.jpg"),
     width: 4,
     height: 3
   },
-  {
-    src: require("../images/doug-life/family-5.jpg"),
-    width: 2.4,
-    height: 2.9
-  },
+ 
   {
     src: require("../images/doug-life/xmas-portait-1.jpg"),
     width: 4,
@@ -304,26 +300,6 @@ export const ihealphones = [
 
 export const sjsu = [
   {
-    src: require("../images/sjsu/dorms.jpg"),
-    width: 4,
-    height: 3
-  },
-  {
-    src: require("../images/sjsu/roomies.JPG"),
-    width: 1,
-    height: 1
-  },
-  {
-    src: require("../images/sjsu/cool-guy.JPG"),
-    width: 2,
-    height: 1.3
-  },
-  {
-    src: require("../images/sjsu/pike.jpg"),
-    width: 1.8,
-    height: 1.1
-  },
-  {
     src: require("../images/sjsu/comp.jpg"),
     width: 1,
     height: 1
@@ -342,6 +318,31 @@ export const sjsu = [
     src: require("../images/sjsu/comp-3.jpg"),
     width: 3,
     height: 4
+  },
+  {
+    src: require("../images/sjsu/pike.jpg"),
+    width: 1.8,
+    height: 1.1
+  },
+  {
+    src: require("../images/sjsu/dorms.jpg"),
+    width: 4,
+    height: 3
+  },
+  {
+    src: require("../images/sjsu/doug-sjsu-grad.JPG"),
+    width: 1.5,
+    height: 2
+  },
+  {
+    src: require("../images/sjsu/doug-engineer.JPG"),
+    width: 1.5,
+    height: 2
+  },
+  {
+    src: require("../images/sjsu/ana-doug-grad.JPG"),
+    width: 1.5,
+    height: 2
   },
 ];
 

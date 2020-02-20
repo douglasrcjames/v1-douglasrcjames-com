@@ -245,7 +245,12 @@ const DescriptionBlock = () => {
             </ul>
         </ul>
 
-        <h2>iOS MVP</h2>
+        <h2>Web App Demo</h2>
+        <p>
+            Coming soon! Polishing a few branding changes, but in the meantime, feel free to make an account at&nbsp;
+            <a href="https://minute.tech" target="_blank" rel="noopener noreferrer">minute.tech</a> and let me know what you think, I need all the feedback I can get!
+        </p>
+        <h2>iOS App MVP</h2>
         <div className="center-text">
             <PhotoGallery photos={minuteTechIos} />
             <br/>

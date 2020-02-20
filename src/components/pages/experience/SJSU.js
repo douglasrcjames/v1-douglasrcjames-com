@@ -11,9 +11,9 @@ export default class SJSU extends Component {
                     siteUrl={"www.sjsu.edu"}
                     logoUrl={require("../../../assets/images/sjsu/logo.png")}
                     logoStyle={"long"}
-                    myRole={"Engineering Student"}
-                    status={"Nearly Complete"}
-                    period={"August, 2013 -> Current"}
+                    myRole={"Engineering & Business Student"}
+                    status={"Graduated!!"}
+                    period={"August, 2013 -> December, 2019"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={sjsu}
@@ -23,16 +23,14 @@ export default class SJSU extends Component {
     }
 }
 
-// Might be good to include the previous site screenshots
-
 const DescriptionBlock = () => {
     return (
     <>
         <p className="indent">
-            Earning Computer Engineering major with Business and Math minors in the heart of Silicon Valley. Member of Computer &amp; Software Engineering Society. Member of the Pi Kappa Alpha fraternity. 
+            Earned Computer Engineering major with Business and Math minors in the heart of Silicon Valley. 
+            Member of Computer &amp; Software Engineering Society. Member of the Pi Kappa Alpha fraternity. 
+            Earned the confidence and paperwork to work professionally as an engineer solving problems around the world!
         </p>  
-        
-       
     </>
     )
 }

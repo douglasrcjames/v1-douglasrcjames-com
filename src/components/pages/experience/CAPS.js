@@ -52,12 +52,30 @@ const DescriptionBlock = () => {
         </ol>
 
         <p>
-            I am very proud of the website I developed and the client was very pleased with the finished product as well. I am now developing a custom CMS 
-            solution for them to be able to post their own articles within my intervention. In hindsight, perhaps this project was better suited for a 
-            WordPress/SquareSpace/other CMS use case, but both the client and I agree the front end looks better than some 3rd party CMS solutions. 
-            Since July 2019 the site has garnered 1,000 unique website visitors.
+            I am very proud of the website I developed and the client was very pleased with the finished product as well. I recently developed a custom CMS 
+            solution for them to be able to post their own articles within my intervention. In hindsight, I definitely should have started this project by building the CMS, 
+            but along the way I learned the true difference between WordPress/SquareSpace/other CMS use case and my CMS solution. 
+            Oh and since July 2019 the site has garnered 1,000 unique website visitors!
         </p>
       
+
+        <h2>Site demo with CMS</h2>
+        <div className="center-text">
+            <iframe
+                title="CAPS Web app Demo video"
+                width="560" height="315"
+                src="https://www.youtube.com/embed/iP9VRnTQbSM"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen="allowfullscreen"
+                mozallowfullscreen="mozallowfullscreen" 
+                msallowfullscreen="msallowfullscreen" 
+                oallowfullscreen="oallowfullscreen" 
+                webkitallowfullscreen="webkitallowfullscreen"
+            />
+            <br/>
+            <br/>
+        </div> 
     </>
     )
 }
