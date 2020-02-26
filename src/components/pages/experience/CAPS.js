@@ -55,7 +55,7 @@ const DescriptionBlock = () => {
             I am very proud of the website I developed and the client was very pleased with the finished product as well. I recently developed a custom CMS 
             solution for them to be able to post their own articles within my intervention. In hindsight, I definitely should have started this project by building the CMS, 
             but along the way I learned the true difference between WordPress/SquareSpace/other CMS use case and my CMS solution. 
-            Oh and since July 2019 the site has garnered 1,000 unique website visitors!
+            Oh and since July 2019 the site has garnered 1,500 unique website visitors!
         </p>
       
 

@@ -33,7 +33,7 @@ const DescriptionBlock = () => {
             the site in under a week! Both Ryan and I, as well as the client are stoked with the outcome of the website. I was particularly excited because this was my first experience with
             translating a wireframe to a working website. There was only one style I wasn't able to figure out, which was the green or white stripe that went from the headers
             to the edge of the screen. Perhaps with more time on the project, I would have found a solution to this, but it was not vital to the design so I scrapped it in the final design.
-            I continue to provide occasional updates to the site when necessary to the client.  Since April of 2018, the site has garnered 3000 unique website visitors.
+            I continue to provide occasional updates to the site when necessary to the client.  Since April of 2018, the site has garnered 3500 unique website visitors.
         </p>   
         <p>
 

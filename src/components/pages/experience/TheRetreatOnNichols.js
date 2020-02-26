@@ -38,7 +38,7 @@ const DescriptionBlock = () => {
             phase was fairly quick, because I had previously built a SquareSpace site for the client, so I based much of my design off that template. 
             I had to do a quick rework of the logo because the client did not have the original image for the logo.
             I also worked with a videographer and photographer to fit their content captured into the site.
-            Since August 2019 the site has garnered 200 unique website visitors. 
+            Since August 2019 the site has garnered 500 unique website visitors. 
         </p> 
     </>
     )

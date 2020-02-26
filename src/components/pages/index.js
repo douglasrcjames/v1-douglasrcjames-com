@@ -11,7 +11,7 @@ export default class AboutMe extends Component {
                 
                 <h1>About Me</h1>
                 <p className="indent">
-                    Welcome to my portfolio site. I am a young, engineer and businessman trained in the Silicon Valley at 
+                    Welcome to my personal website. I am a young, engineer and businessman trained in the Silicon Valley at 
                     San Jose State University. Currently, I work on freelance projects like <Link to="/experience/capsmd.org">capsmd.org</Link>&nbsp;
                     and <Link to="/experience/minute.tech">minute.tech</Link>, as well as tech support for Minute.tech testing.
                     I am seeking a position outside freelance work because I love working with teams who can teach me 
