@@ -246,10 +246,22 @@ const DescriptionBlock = () => {
         </ul>
 
         <h2>Web App Demo</h2>
-        <p>
-            Coming soon! Polishing a few branding changes, but in the meantime, feel free to make an account at&nbsp;
-            <a href="https://minute.tech" target="_blank" rel="noopener noreferrer">minute.tech</a> and let me know what you think, I need all the feedback I can get!
-        </p>
+        <div className="center-text">
+            <iframe
+                title="Minute.tech Web app Demo video"
+                width="560" height="315"
+                src="https://www.youtube.com/embed/qeaLJ-Jw2SE"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen="allowfullscreen"
+                mozallowfullscreen="mozallowfullscreen" 
+                msallowfullscreen="msallowfullscreen" 
+                oallowfullscreen="oallowfullscreen" 
+                webkitallowfullscreen="webkitallowfullscreen"
+            />
+        </div>
+       
+       
         <h2>iOS App MVP</h2>
         <div className="center-text">
             <PhotoGallery photos={minuteTechIos} />
