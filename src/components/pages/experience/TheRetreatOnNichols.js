@@ -40,6 +40,22 @@ const DescriptionBlock = () => {
             I also worked with a videographer and photographer to fit their content captured into the site.
             Since August 2019 the site has garnered 500 unique website visitors. 
         </p> 
+
+        <h2>Demo</h2>
+        <div className="center-text">
+            <iframe
+                title="Retreat on Nichols Demo video"
+                width="560" height="315"
+                src="https://www.youtube.com/embed/pNKvclHvTOY"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen="allowfullscreen"
+                mozallowfullscreen="mozallowfullscreen" 
+                msallowfullscreen="msallowfullscreen" 
+                oallowfullscreen="oallowfullscreen" 
+                webkitallowfullscreen="webkitallowfullscreen"
+            />
+        </div>
     </>
     )
 }

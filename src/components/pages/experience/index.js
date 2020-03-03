@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Timeline, Event } from "../../Utilities";
 import {Link} from 'react-router-dom'
-import resume from '../../../assets/pdf/DouglasJames-Resume-1.3.2020.pdf'
+import resume from '../../../assets/pdf/DouglasJames-Resume-3.2.2020.pdf'
 
 export default class Experience extends Component {
     render() {
@@ -12,7 +12,7 @@ export default class Experience extends Component {
                     I am a web developer with 7+ years of freelance experience, computer technician with 8+ years of experience, and an entrepreneur with a lifelong dream to build great products.
                     I have broken down my relevant work into chronological order, with a detailed view for each job. 
                     <br/><br/>
-                    If you'd like to get straight to the point, I included a direct download link to my updated (1.3.2020) resume.
+                    If you'd like to get straight to the point, I included a direct download link to my updated (3.2.2020) resume.
                 </p>
                 <a href={resume} download><button className="s-btn">Download Resume</button></a>
                 <h2>Recent Updates:</h2>
