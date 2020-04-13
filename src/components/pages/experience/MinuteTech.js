@@ -187,7 +187,7 @@ const DescriptionBlock = () => {
                     Secured trademark on "Minute.tech".
                 </li>
                 <li>
-                    Worked with two graphic designer friends, <a href="https://www.linkedin.com/in/ryan-wall-287837132/" target="_blank" rel="noopener noreferrer">Ryan Wall</a> 
+                    Worked with two graphic designer friends, <a href="https://www.linkedin.com/in/ryan-wall-287837132/" target="_blank" rel="noopener noreferrer">Ryan Wall</a>&nbsp;
                     and <a href="https://www.linkedin.com/in/mitchell-licata/" target="_blank" rel="noopener noreferrer">Mitch Licata</a> on the web app wireframe.
                 </li>
                 <li>
