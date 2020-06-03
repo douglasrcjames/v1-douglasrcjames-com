@@ -12,7 +12,7 @@ export default class PaloAltoNetworks extends Component {
                     logoUrl={require("../../../assets/images/palo-alto-networks/logo.png")}
                     myRole={"IT Specialist"}
                     status={"Completed"}
-                    period={"May, 2015 -> August, 2015"}
+                    period={"May, 2015 - August, 2015"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={paloAltoNetworks}

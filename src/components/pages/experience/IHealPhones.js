@@ -14,7 +14,7 @@ export default class IHealPhones extends Component {
                     logoStyle={"long"}
                     myRole={"Founder"}
                     status={"Completed"}
-                    period={"December, 2010 -> February, 2014"}
+                    period={"December, 2010 - February, 2014"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={ihealphones}

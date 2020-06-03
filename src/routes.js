@@ -3,6 +3,8 @@ import { Route, Switch, withRouter } from "react-router-dom";
 
 import AboutMe from "./components/pages/";
 import Experience from "./components/pages/experience";
+import TheBlairFamilyFoundation from "./components/pages/experience/TheBlairFamilyFoundation";
+import ElkindFinancial from "./components/pages/experience/ElkindFinancial";
 import TheRetreatOnNichols from "./components/pages/experience/TheRetreatOnNichols";
 import MinuteTech from "./components/pages/experience/MinuteTech";
 import CAPS from "./components/pages/experience/CAPS";
@@ -17,8 +19,6 @@ import IHealPhones from "./components/pages/experience/IHealPhones";
 import ORHS from "./components/pages/experience/ORHS";
 import Gallery from "./components/pages/Gallery";
 import withTracker from './components/WithTracker';
-
-
 
 const Page404 = ({ location }) => (
   <div className="wrapper">
@@ -36,6 +36,8 @@ export class Routes extends React.PureComponent {
       <Switch>
         <Route exact path="/" component={withTracker(AboutMe)} />
         <Route exact path="/experience/" component={withTracker(Experience)} />
+        <Route exact path="/experience/theblairfamilyfoundation.org" component={withTracker(TheBlairFamilyFoundation)} />
+        <Route exact path="/experience/elkind.financial" component={withTracker(ElkindFinancial)} />
         <Route exact path="/experience/theretreatonnichols.com" component={withTracker(TheRetreatOnNichols)} />
         <Route exact path="/experience/minute.tech" component={withTracker(MinuteTech)} />
         <Route exact path="/experience/capsmd.org" component={withTracker(CAPS)} />

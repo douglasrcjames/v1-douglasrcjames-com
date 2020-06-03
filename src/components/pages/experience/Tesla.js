@@ -13,7 +13,7 @@ export default class Tesla extends Component {
                     logoStyle={"long"}
                     myRole={"Product Specialist"}
                     status={"Completed"}
-                    period={"August, 2016 -> December, 2016"}
+                    period={"August, 2016 - December, 2016"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={tesla}

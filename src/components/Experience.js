@@ -38,6 +38,25 @@ export default class MinuteTech extends Component {
                                     </>
                                 )}
 
+                                { (this.props.logoStyle === "small-square") && (
+                                    <>
+                                        <MediaQuery minWidth={993}>
+                                            <img
+                                                className="responsive medium p-top-right"
+                                                alt={`${this.props.title} logo`}
+                                                src={this.props.logoUrl}
+                                                />
+                                        </MediaQuery>
+                                        <MediaQuery maxWidth={992}>
+                                            <img
+                                                className="responsive medium"
+                                                alt={`${this.props.title} logo`}
+                                                src={this.props.logoUrl}
+                                                />
+                                        </MediaQuery>
+                                    </>
+                                )}
+
                                 { this.props.logoStyle === "long" && (
                                     <>
                                         <MediaQuery minWidth={993}>

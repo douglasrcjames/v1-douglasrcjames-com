@@ -12,10 +12,9 @@ export default class MinuteTech extends Component {
                     title={"Minute.tech LLC"}
                     siteUrl={"www.minute.tech"}
                     logoUrl={require("../../../assets/images/minutetech/minute-tech-logo-long-full-color.png")}
-                    logoStyle={"square"}
                     myRole={"Founder"}
                     status={"In Progress"}
-                    period={"May, 2016 -> Current"}
+                    period={"May, 2016 - Today"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={minuteTech}

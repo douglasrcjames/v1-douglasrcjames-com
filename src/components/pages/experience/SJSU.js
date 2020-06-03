@@ -13,7 +13,7 @@ export default class SJSU extends Component {
                     logoStyle={"long"}
                     myRole={"Engineering & Business Student"}
                     status={"Graduated!!"}
-                    period={"August, 2013 -> December, 2019"}
+                    period={"August, 2013 - December, 2019"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={sjsu}

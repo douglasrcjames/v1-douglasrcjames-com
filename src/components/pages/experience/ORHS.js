@@ -13,7 +13,7 @@ export default class ORHS extends Component {
                     logoUrl={require("../../../assets/images/orhs/logo.png")}
                     myRole={"Student"}
                     status={"Completed"}
-                    period={"August, 2009 -> May, 2013"}
+                    period={"August, 2009 - May, 2013"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={orhs}

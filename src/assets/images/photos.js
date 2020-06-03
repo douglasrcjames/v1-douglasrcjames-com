@@ -5,9 +5,9 @@ export const dougPhotos = [
     height: 5.1
   },
   {
-    src: require("../images/doug-life/ana-georgie.jpg"),
-    width: 4,
-    height: 3
+    src: require("../images/doug-life/ana-doug-2.jpg"),
+    width: 2.5,
+    height: 1.6
   },
   {
     src: require("../images/doug-life/doug-family-grad.jpg"),
@@ -125,7 +125,27 @@ export const minuteTechIos = [
     width: 1.1,
     height: 2.5
   },
- 
+];
+
+export const elkindFinancial = [
+  {
+    src: require("../images/elkind-financial/screenshot-1.png"),
+    width: 1,
+    height: 1.6
+  },
+];
+
+export const theBlairFamilyFoundation = [
+  {
+    src: require("../images/theblairfamilyfoundation/screenshot-1.png"),
+    width: 0.8,
+    height: 1.6
+  },
+  {
+    src: require("../images/theblairfamilyfoundation/screenshot-2.png"),
+    width: 0.8,
+    height: 1.4
+  },
 ];
 
 export const theRetreatOnNichols = [

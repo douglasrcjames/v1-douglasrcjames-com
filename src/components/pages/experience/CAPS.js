@@ -13,7 +13,7 @@ export default class CAPS extends Component {
                     logoUrl={require("../../../assets/images/caps/caps-logo-v4.jpg")}
                     myRole={"Web Developer"}
                     status={"Maintaining"}
-                    period={"June, 2019 -> Current"}
+                    period={"June, 2019 - Today"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={caps}

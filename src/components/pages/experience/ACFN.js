@@ -13,7 +13,7 @@ export default class ACFN extends Component {
                     logoUrl={require("../../../assets/images/acfn/logo.jpg")}
                     myRole={"ATM Technician"}
                     status={"Completed"}
-                    period={"February, 2015 -> June, 2015"}
+                    period={"February, 2015 - June, 2015"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={acfn}

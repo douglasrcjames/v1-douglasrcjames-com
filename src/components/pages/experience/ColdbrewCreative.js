@@ -12,7 +12,7 @@ export default class ColdbrewCreative extends Component {
                     logoUrl={require("../../../assets/images/coldbrew-creative/logo.png")}
                     myRole={"Web Developer"}
                     status={"Completed"}
-                    period={"October, 2017 -> January, 2018"}
+                    period={"October, 2017 - January, 2018"}
                     skillsBlock={<SkillsBlock />}
                     descriptionBlock={<DescriptionBlock />}
                     photoGallery={coldbrewCreative}

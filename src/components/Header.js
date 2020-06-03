@@ -23,8 +23,17 @@ class Header extends Component {
 
   render() {
       return (
-        <header className="center-text">
-          <Link to="/"><h1 className="header-logo">douglasrcjames.com</h1></Link>
+        <header className="center-text center">
+          <Link to="/">
+            <h1 className="header-logo"> 
+              <img
+                className="responsive small"
+                alt={`douglasrcjames logo`}
+                src={require(`../assets/images/logo/link_head.png`)}
+                />
+              douglasrcjames.com
+            </h1>
+          </Link>
           {/* <h2 className="no-margin no-padding">Hi, I'm Doug and I fix bugs.</h2> */}
           <NavLink to="/" exact={true} className="nav-link" activeClassName="nav-select">
             About Me

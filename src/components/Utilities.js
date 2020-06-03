@@ -17,41 +17,19 @@ export const Timeline = ({ children }) =>
   
 export const Event = ({ title, subtitle, interval, link, children, lastEvent }) =>
 <>
-  { lastEvent && (
-    <li className="tl-last-event">
-      <label className="tl-icon"></label>
-      <p className="tl-date">{interval}</p>
+  <li className={lastEvent ? "tl-last-event" : "tl-event"}>
+    <label className="tl-icon"></label>
+    <span className="tl-date">{interval}</span>
+    <Link to={link}>
       <div className="tl-body">
         <h2>{title}</h2>
         {subtitle && <h4>{subtitle}</h4>}
         <div className="tl-description">
           {children}
         </div>
-        { link && (
-          <Link to={link}>more details...</Link>
-        )}
-        
       </div>
-    </li>
-  )}
-
-  { !lastEvent && (
-    <li className="tl-event">
-      <label className="tl-icon"></label>
-      <p className="tl-date">{interval}</p>
-      <div className="tl-body">
-        <h2>{title}</h2>
-        {subtitle && <h4>{subtitle}</h4>}
-        <div className="tl-description">
-          {children}
-        </div>
-        { link && (
-          <Link to={link}>more details...</Link>
-        )}
-        
-      </div>
-    </li>
-  )}
+    </Link>
+  </li>
 </>
 
 
