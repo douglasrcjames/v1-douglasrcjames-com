@@ -17,6 +17,15 @@ export default class Experience extends Component {
                 <a href={resume} download><button className="s-btn">Download Resume</button></a>
                 <h2>Recent Updates:</h2>
                 <ul>
+                    <li><Link to="/experience/prestige-power">Prestige Power</Link></li>
+                    <ul>
+                        <li>Currently building a custom CRM and front end experience for this solar sales company</li>
+                        <li>Providing IT consulting and some business consulting</li>
+                    </ul>
+                    <li><Link to="/experience/smithzellner.consulting">smithzellner.consulting</Link></li>
+                    <ul>
+                        <li>Nearly complete building a front end website for a consulting firm in Alabama, USA</li>
+                    </ul>
                     <li><Link to="/experience/minute.tech">minute.tech</Link></li>
                     <ul>
                         <li>Production beta build of web app completed</li>
@@ -40,6 +49,12 @@ export default class Experience extends Component {
                 </ul>
                 <h2>Timeline:</h2>
                 <Timeline>
+                    <Event interval={"July, 2020 – Today"} title={"Prestige Power"} link={"/experience/prestige-power"}>
+                        Currently building a custom CRM and front end experience for this solar sales company
+                    </Event>
+                    <Event interval={"June, 2020 – Today"} title={"smithzellner.consulting"} link={"/experience/smithzellner.consulting"}>
+                        Nearly complete building a front end website for a consulting firm in Alabama, USA
+                    </Event>
                     <Event interval={"February, 2020 – Today"} title={"elkind.financial"} link={"/experience/elkind.financial"}>
                         Currently designing and coding a simple site and logo for a financial advisor out of Tulsa, Oklahoma.
                     </Event>
@@ -64,14 +79,14 @@ export default class Experience extends Component {
                     <Event interval={"August, 2016 – December, 2016"} title={"Tesla, Inc."} link={"/experience/tesla"}>
                         Car salesman at a Tesla Electric vehicle showroom in Sunnyvale, California
                     </Event>
+                    <Event interval={"May, 2016 – Today"} title={"Minute.tech LLC"} link={"/experience/minute.tech"}>
+                        Founder at software startup connecting non-techie users with techie users.
+                    </Event>
                     <Event interval={"May, 2015 – August, 2015"} title={"Palo Alto Networks, Inc."} link={"/experience/palo-alto-networks"}>
                         IT Specialist at a large network security firm in Sunnyvale, California.
                     </Event>
                     <Event interval={"February, 2015 – June, 2015"} title={"ACFN, the ATM Franchise"} link={"/experience/acfn-franchised"}>
                         Remote ATM phone technician at a ATM franchising company in Downtown, San Jose, California.
-                    </Event>
-                    <Event interval={"May, 2016 – Today"} title={"Minute.tech LLC"} link={"/experience/minute.tech"}>
-                        Founder at software startup connecting non-techie users with techie users.
                     </Event>
                     <Event interval={"August, 2013 – Current"} title={"San Jose State University"} link={"/experience/san-jose-state-university"}>
                         Earning Computer Engineering major with Business and Math minors in the heart of Silicon Valley.

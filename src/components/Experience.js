@@ -13,72 +13,75 @@ export default class MinuteTech extends Component {
                         <Col md={12} lg={6}>
                             <h1><u>Project:</u> <br/>{this.props.title}</h1>
                         </Col>
-                        <Col md={12} lg={6} className="p-container">
-                            <a 
-                                href={`https://${this.props.siteUrl}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                >
-                                { (this.props.logoStyle === "square" || !this.props.logoStyle) && (
-                                    <>
-                                        <MediaQuery minWidth={993}>
-                                            <img
-                                                className="responsive large p-top-right"
-                                                alt={`${this.props.title} logo`}
-                                                src={this.props.logoUrl}
-                                                />
-                                        </MediaQuery>
-                                        <MediaQuery maxWidth={992}>
-                                            <img
-                                                className="responsive large"
-                                                alt={`${this.props.title} logo`}
-                                                src={this.props.logoUrl}
-                                                />
-                                        </MediaQuery>
-                                    </>
-                                )}
+                        {this.props.logoUrl && (
+                            <Col md={12} lg={6} className="p-container">
+                                <a 
+                                    href={`https://${this.props.siteUrl}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >
+                                    { (this.props.logoStyle === "square" || !this.props.logoStyle) && (
+                                        <>
+                                            <MediaQuery minWidth={993}>
+                                                <img
+                                                    className="responsive large p-top-right"
+                                                    alt={`${this.props.title} logo`}
+                                                    src={this.props.logoUrl}
+                                                    />
+                                            </MediaQuery>
+                                            <MediaQuery maxWidth={992}>
+                                                <img
+                                                    className="responsive large"
+                                                    alt={`${this.props.title} logo`}
+                                                    src={this.props.logoUrl}
+                                                    />
+                                            </MediaQuery>
+                                        </>
+                                    )}
 
-                                { (this.props.logoStyle === "small-square") && (
-                                    <>
-                                        <MediaQuery minWidth={993}>
-                                            <img
-                                                className="responsive medium p-top-right"
-                                                alt={`${this.props.title} logo`}
-                                                src={this.props.logoUrl}
-                                                />
-                                        </MediaQuery>
-                                        <MediaQuery maxWidth={992}>
-                                            <img
-                                                className="responsive medium"
-                                                alt={`${this.props.title} logo`}
-                                                src={this.props.logoUrl}
-                                                />
-                                        </MediaQuery>
-                                    </>
-                                )}
+                                    { (this.props.logoStyle === "small-square") && (
+                                        <>
+                                            <MediaQuery minWidth={993}>
+                                                <img
+                                                    className="responsive medium p-top-right"
+                                                    alt={`${this.props.title} logo`}
+                                                    src={this.props.logoUrl}
+                                                    />
+                                            </MediaQuery>
+                                            <MediaQuery maxWidth={992}>
+                                                <img
+                                                    className="responsive medium"
+                                                    alt={`${this.props.title} logo`}
+                                                    src={this.props.logoUrl}
+                                                    />
+                                            </MediaQuery>
+                                        </>
+                                    )}
 
-                                { this.props.logoStyle === "long" && (
-                                    <>
-                                        <MediaQuery minWidth={993}>
-                                            <img
-                                                className="responsive xlarge p-top-right m-margin"
-                                                alt={`${this.props.title} logo`}
-                                                src={this.props.logoUrl}
-                                                />
-                                        </MediaQuery>
-                                        <MediaQuery maxWidth={992}>
-                                            <img
-                                                className="responsive xlarge"
-                                                alt={`${this.props.title} logo`}
-                                                src={this.props.logoUrl}
-                                                />
-                                        </MediaQuery>
-                                    </>
-                                )}
-                                
-                                
-                            </a>  
-                        </Col>
+                                    { this.props.logoStyle === "long" && (
+                                        <>
+                                            <MediaQuery minWidth={993}>
+                                                <img
+                                                    className="responsive xlarge p-top-right m-margin"
+                                                    alt={`${this.props.title} logo`}
+                                                    src={this.props.logoUrl}
+                                                    />
+                                            </MediaQuery>
+                                            <MediaQuery maxWidth={992}>
+                                                <img
+                                                    className="responsive xlarge"
+                                                    alt={`${this.props.title} logo`}
+                                                    src={this.props.logoUrl}
+                                                    />
+                                            </MediaQuery>
+                                        </>
+                                    )}
+                                    
+                                    
+                                </a>  
+                            </Col>
+                        )}
+                        
                     </Row>
                     {/* Row 1 */}
                     <Row>
@@ -142,7 +145,7 @@ export default class MinuteTech extends Component {
                 <br/>
                 <hr />
                 <br />
-                {   this.props.photoGallery && (
+                { this.props.photoGallery && (
                     <>
                         {   this.props.gallerySize === "medium" && (
                             <div className="m-width center">

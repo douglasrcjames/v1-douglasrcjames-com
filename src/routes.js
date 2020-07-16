@@ -19,6 +19,8 @@ import IHealPhones from "./components/pages/experience/IHealPhones";
 import ORHS from "./components/pages/experience/ORHS";
 import Gallery from "./components/pages/Gallery";
 import withTracker from './components/WithTracker';
+import PrestigePower from "./components/pages/experience/PrestigePower";
+import SmithZellnerConsulting from "./components/pages/experience/SmithZellnerConsulting";
 
 const Page404 = ({ location }) => (
   <div className="wrapper">
@@ -36,6 +38,8 @@ export class Routes extends React.PureComponent {
       <Switch>
         <Route exact path="/" component={withTracker(AboutMe)} />
         <Route exact path="/experience/" component={withTracker(Experience)} />
+        <Route exact path="/experience/prestige-power" component={withTracker(PrestigePower)} />
+        <Route exact path="/experience/smithzellner.consulting" component={withTracker(SmithZellnerConsulting)} />
         <Route exact path="/experience/theblairfamilyfoundation.org" component={withTracker(TheBlairFamilyFoundation)} />
         <Route exact path="/experience/elkind.financial" component={withTracker(ElkindFinancial)} />
         <Route exact path="/experience/theretreatonnichols.com" component={withTracker(TheRetreatOnNichols)} />

@@ -27,7 +27,7 @@ class Header extends Component {
           <Link to="/">
             <h1 className="header-logo"> 
               <img
-                className="responsive small"
+                className="responsive m-em s-margin-r"
                 alt={`douglasrcjames logo`}
                 src={require(`../assets/images/logo/link_head.png`)}
                 />

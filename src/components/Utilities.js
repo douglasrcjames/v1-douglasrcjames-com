@@ -20,7 +20,7 @@ export const Event = ({ title, subtitle, interval, link, children, lastEvent }) 
   <li className={lastEvent ? "tl-last-event" : "tl-event"}>
     <label className="tl-icon"></label>
     <span className="tl-date">{interval}</span>
-    <Link to={link}>
+    <Link to={link || "# "}>
       <div className="tl-body">
         <h2>{title}</h2>
         {subtitle && <h4>{subtitle}</h4>}
@@ -38,7 +38,7 @@ export const SocialLink = ({ label, link }) =>
      <img
         style={{verticalAlign:"middle"}}
         className="responsive xxsmall "
-        alt="spotify"
+        alt={`${label}`}
         src={require(`../assets/images/social/${label}.png`)}
         />
   </a>
