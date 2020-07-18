@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "emotion": "^10.0.27",
-    "handlebars": "^4.7.3",
+    "handlebars": "^4.7.6",
+    "minimist": "^1.2.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-flexbox-grid": "^2.1.2",
