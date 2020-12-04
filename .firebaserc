@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "douglasrcjamescom"
+  },
+  "targets": {
+    "douglasrcjamescom": {
+      "hosting": {
+        "test": [
+          "douglasrcjames-v1"
+        ],
+        "live": [
+          "douglasrcjamescom"
+        ]
+      }
+    }
   }
 }
